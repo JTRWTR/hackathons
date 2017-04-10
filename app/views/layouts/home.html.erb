@@ -11,12 +11,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
+<header>
+  <%= render 'home/header' %>
+</header>
 <%= yield %>
 <% if current_user %>
   <%= current_user.name %> <%= link_to 'ログアウト', logout_path %>
 <% else %>
   <%= link_to 'ログイン', '/auth/twitter' %>
 <% end %>
+<footer class="small">
+  <%= render 'home/footer' %>
+</footer>
+<div id="fb-root"></div>
 
 </body>
 </html>
