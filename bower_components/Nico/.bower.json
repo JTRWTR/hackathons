@@ -1,0 +1,58 @@
+{
+  "name": "Nico",
+  "description": "Nico a fork of Honoka which is a Bootstrap theme.",
+  "keywords": [
+    "css",
+    "sass",
+    "bootstrap",
+    "japanese",
+    "theme",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "lovelive"
+  ],
+  "author": "kubosho",
+  "homepage": "http:http://nico.kubosho.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kubosho/Nico.git"
+  },
+  "license": "MIT",
+  "moduleType": "globals",
+  "main": [
+    "dist/css/bootstrap.min.css"
+  ],
+  "ignore": [
+    "/.*",
+    "dist/assets",
+    "dist/*.html",
+    "src",
+    "CNAME"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "3.3.7",
+    "bootstrap-sass": "3.3.7"
+  },
+  "exportsOverride": {
+    "bootstrap-sass": {},
+    "bootstrap": {
+      "js": "dist/js/bootstrap.**js",
+      "fonts": "dist/fonts/**/*"
+    },
+    "jquery": {}
+  },
+  "version": "3.3.7-1.2.1",
+  "_release": "3.3.7-1.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.7-1.2.1",
+    "commit": "ccba36ee6ef4363405f3bf9669ab05ae9af1c0c9"
+  },
+  "_source": "https://github.com/kubosho/Nico.git",
+  "_target": "3.3.7-1.2.1",
+  "_originalSource": "Nico",
+  "_direct": true
+}
