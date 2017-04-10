@@ -2,21 +2,21 @@
 <html>
 <head>
   <title>GConnectionRails</title>
+  <link rel="stylesheet" href="/static/css/font-awesome.min.css" type="text/css" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link href="/staticls/bootstrap.css" rel="stylesheet">
-  <script src="/static/js/underscore-min.js"></script>
-  <script src="/static/js/bootstrap.min.js"></script>
+  <!--script src="/static/js/underscore-min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script-->
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
+<%= yield %>
 <% if current_user %>
   <%= current_user.name %> <%= link_to 'ログアウト', logout_path %>
 <% else %>
   <%= link_to 'ログイン', '/auth/twitter' %>
 <% end %>
-<%= yield %>
 
 </body>
 </html>
