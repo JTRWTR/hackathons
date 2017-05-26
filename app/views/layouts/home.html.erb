@@ -17,11 +17,6 @@
   <%= render 'home/header' %>
 </header>
 <%= yield %>
-<% if current_user %>
-  <%= current_user.name %> <%= link_to 'ログアウト', logout_path %>
-<% else %>
-  <%= link_to 'ログイン', '/auth/twitter' %>
-<% end %>
 <footer class="small">
   <%= render 'home/footer' %>
 </footer>
