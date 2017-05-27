@@ -1,1 +1,43 @@
-＃渡るが使うよ〜
+.jumbotron.special {
+    position: relative;
+    min-height: 530px;
+    margin-top: -36px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f0e68c;
+    background-repeat: no-repeat;
+    background-position: -35% center;
+    -webkit-background-size: 70% 70%;
+    background-size: 70%;
+}
+
+.v4-pre {
+  background-color: #000
+}
+
+h1 small {
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    font-style: italic;
+}
+
+h4 {
+  margin: 14px;
+  background: #F64F4A;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar.navbar-default, .navbar.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 0;
+    border-bottom: 1px solid #3b9ae0;
+}
+
+.title_image {
+    background: url("/static/images/top000.jpg")
+}
