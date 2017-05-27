@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :posts
+  resources :tags
+  resources :tags
   root 'home#index'
 
   get "home/index"
